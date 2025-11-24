@@ -26,29 +26,601 @@
   </head>
 
   <body>
-    <!-- Start your project here-->
-    <div class="container">
-      <div class="d-flex justify-content-center align-items-center" style="height: 100vh">
-        <div class="text-center">
-          <img
-            class="mb-4"
-            src="https://mdbootstrap.com/img/logo/mdb-transparent-250px.png"
-            style="width: 250px; height: 90px"
-          />
-          <h5 class="mb-3">Thank you for using our product. We're glad you're with us.</h5>
-          <p class="mb-3">MDB Team</p>
-          <a
-            data-mdb-ripple-init
-            class="btn btn-primary btn-lg"
-            href="https://mdbootstrap.com/docs/standard/getting-started/"
-            target="_blank"
-            role="button"
-            >Start MDB tutorial</a
-          >
+  
+
+
+      <!--Main Navigation-->
+  <header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container">
+        <!-- Navbar brand -->
+        <a class="navbar-brand" target="_blank" href="https://mdbootstrap.com/docs/standard/">
+          <img src="https://mdbootstrap.com/img/logo/mdb-transaprent-noshadows.png" height="16" alt="" loading="lazy"
+            style="margin-top: -3px" />
+        </a>
+        <!-- Toggle button -->
+        <button class="navbar-toggler" type="button" data-mdb-collapse-init data-mdb-target="#navbarExample01"
+          aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarExample01">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="#intro">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="" rel="nofollow" target="_blank">Topics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="" target="_blank">About me</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav d-flex flex-row">
+            <!-- Icons -->
+            <li class="nav-item me-3 me-lg-0">
+              <a class="nav-link" href="#">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+            </li>
+            <li class="nav-item me-3 me-lg-0">
+              <a class="nav-link" href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="nav-item me-3 me-lg-0">
+              <a class="nav-link" href="#">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Background image -->
+    <div id="intro" class="bg-image shadow-1-strong" style="
+          background-image: url(https://mdbootstrap.com/img/new/slides/052.jpg);
+          height: 400px;
+        ">
+      <div class="mask text-white" style="background-color: rgba(0, 0, 0, 0.6)">
+        <div class="container d-flex align-items-center justify-content-center text-center h-100">
+          <div class="text-white">
+            <h1 class="mb-3">My Blog</h1>
+            <h4 class="mb-4">Quidquid Latine dictum sit, altum videtur</h4>
+          </div>
         </div>
       </div>
     </div>
-    <!-- End your project here-->
+    <!-- Background image -->
+  </header>
+  <!--Main Navigation-->
+
+  <!--Main layout-->
+  <main class="mt-5 mb-4">
+    <div class="container">
+      <!--Section: Main news-->
+      <section>
+        <div class="row gx-5">
+          <div class="col-md-6 mb-4 mb-md-0">
+            <div class="bg-image hover-overlay shadow-2-strong" data-mdb-ripple-init data-mdb-ripple-color="light">
+              <img src="https://mdbootstrap.com/img/new/slides/080.jpg" class="img-fluid" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-4 mb-md-0">
+            <span class="badge badge-danger mb-3">News of the day</span>
+            <h4><strong>Facilis consequatur eligendi</strong></h4>
+            <p class="text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              consequatur eligendi quisquam doloremque vero ex debitis
+              veritatis placeat unde animi laborum sapiente illo possimus,
+              commodi dignissimos obcaecati illum maiores corporis.
+            </p>
+            <button type="button" class="btn btn-primary" data-mdb-ripple-init>Read more</button>
+          </div>
+        </div>
+      </section>
+      <!--Section: Main news-->
+
+      <hr class="my-5" />
+
+      <!--Section: News-->
+      <section>
+        <div class="row gx-5">
+          <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+            <!-- News block -->
+            <div>
+              <!-- Featured image -->
+              <div class="bg-image hover-overlay shadow-1-strong rounded mb-4" data-mdb-ripple-init data-mdb-ripple-color="light">
+                <img src="https://mdbootstrap.com/img/new/fluid/city/113.jpg" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                </a>
+              </div>
+
+              <!-- Article data -->
+              <div class="row mb-3">
+                <div class="col-6">
+                  <a href="" class="text-info">
+                    <i class="fas fa-plane"></i>
+                    Travels
+                  </a>
+                </div>
+
+                <div class="col-6 text-end">
+                  <u> 15.07.2020</u>
+                </div>
+              </div>
+
+              <!-- Article title and description -->
+              <a href="" class="text-dark">
+                <h5>This is title of the news</h5>
+
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Odit, iste aliquid. Sed id nihil magni, sint vero provident
+                  esse numquam perferendis ducimus dicta adipisci iusto nam
+                  temporibus modi animi laboriosam?
+                </p>
+              </a>
+
+              <hr />
+
+              <!-- News -->
+              <a href="" class="text-dark">
+                <div class="row mb-4 border-bottom pb-2">
+                  <div class="col-3">
+                    <img src="https://mdbootstrap.com/img/new/standard/city/041.jpg"
+                      class="img-fluid shadow-1-strong rounded" alt="" />
+                  </div>
+
+                  <div class="col-9">
+                    <p class="mb-2">
+                      <strong>Lorem ipsum dolor sit amet</strong>
+                    </p>
+                    <p>
+                      <u> 15.07.2020</u>
+                    </p>
+                  </div>
+                </div>
+              </a>
+
+              <!-- News -->
+              <a href="" class="text-dark">
+                <div class="row mb-4 border-bottom pb-2">
+                  <div class="col-3">
+                    <img src="https://mdbootstrap.com/img/new/standard/city/042.jpg"
+                      class="img-fluid shadow-1-strong rounded" alt="" />
+                  </div>
+
+                  <div class="col-9">
+                    <p class="mb-2">
+                      <strong>Lorem ipsum dolor sit amet</strong>
+                    </p>
+                    <p>
+                      <u> 15.07.2020</u>
+                    </p>
+                  </div>
+                </div>
+              </a>
+
+              <!-- News -->
+              <a href="" class="text-dark">
+                <div class="row mb-4 border-bottom pb-2">
+                  <div class="col-3">
+                    <img src="https://mdbootstrap.com/img/new/standard/city/043.jpg"
+                      class="img-fluid shadow-1-strong rounded" alt="" />
+                  </div>
+
+                  <div class="col-9">
+                    <p class="mb-2">
+                      <strong>Lorem ipsum dolor sit amet</strong>
+                    </p>
+                    <p>
+                      <u> 15.07.2020</u>
+                    </p>
+                  </div>
+                </div>
+              </a>
+
+              <!-- News -->
+              <a href="" class="text-dark">
+                <div class="row mb-4 border-bottom pb-2">
+                  <div class="col-3">
+                    <img src="https://mdbootstrap.com/img/new/standard/city/044.jpg"
+                      class="img-fluid shadow-1-strong rounded" alt="" />
+                  </div>
+
+                  <div class="col-9">
+                    <p class="mb-2">
+                      <strong>Lorem ipsum dolor sit amet</strong>
+                    </p>
+                    <p>
+                      <u> 15.07.2020</u>
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <!-- News block -->
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+            <!-- News block -->
+            <div>
+              <!-- Featured image -->
+              <div class="bg-image hover-overlay shadow-1-strong rounded mb-4" data-mdb-ripple-init data-mdb-ripple-color="light">
+                <img src="https://mdbootstrap.com/img/new/fluid/city/011.jpg" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                </a>
+              </div>
+
+              <!-- Article data -->
+              <div class="row mb-3">
+                <div class="col-6">
+                  <a href="" class="text-danger">
+                    <i class="fas fa-chart-pie"></i>
+                    Business
+                  </a>
+                </div>
+
+                <div class="col-6 text-end">
+                  <u> 15.07.2020</u>
+                </div>
+              </div>
+
+              <!-- Article title and description -->
+              <a href="" class="text-dark">
+                <h5>This is title of the news</h5>
+
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Odit, iste aliquid. Sed id nihil magni, sint vero provident
+                  esse numquam perferendis ducimus dicta adipisci iusto nam
+                  temporibus modi animi laboriosam?
+                </p>
+              </a>
+
+              <hr />
+
+              <!-- News -->
+              <a href="" class="text-dark">
+                <div class="row mb-4 border-bottom pb-2">
+                  <div class="col-3">
+                    <img src="https://mdbootstrap.com/img/new/standard/city/031.jpg"
+                      class="img-fluid shadow-1-strong rounded" alt="" />
+                  </div>
+
+                  <div class="col-9">
+                    <p class="mb-2">
+                      <strong>Lorem ipsum dolor sit amet</strong>
+                    </p>
+                    <p>
+                      <u> 15.07.2020</u>
+                    </p>
+                  </div>
+                </div>
+              </a>
+
+              <!-- News -->
+              <a href="" class="text-dark">
+                <div class="row mb-4 border-bottom pb-2">
+                  <div class="col-3">
+                    <img src="https://mdbootstrap.com/img/new/standard/city/032.jpg"
+                      class="img-fluid shadow-1-strong rounded" alt="" />
+                  </div>
+
+                  <div class="col-9">
+                    <p class="mb-2">
+                      <strong>Lorem ipsum dolor sit amet</strong>
+                    </p>
+                    <p>
+                      <u> 15.07.2020</u>
+                    </p>
+                  </div>
+                </div>
+              </a>
+
+              <!-- News -->
+              <a href="" class="text-dark">
+                <div class="row mb-4 border-bottom pb-2">
+                  <div class="col-3">
+                    <img src="https://mdbootstrap.com/img/new/standard/city/033.jpg"
+                      class="img-fluid shadow-1-strong rounded" alt="" />
+                  </div>
+
+                  <div class="col-9">
+                    <p class="mb-2">
+                      <strong>Lorem ipsum dolor sit amet</strong>
+                    </p>
+                    <p>
+                      <u> 15.07.2020</u>
+                    </p>
+                  </div>
+                </div>
+              </a>
+
+              <!-- News -->
+              <a href="" class="text-dark">
+                <div class="row mb-4 border-bottom pb-2">
+                  <div class="col-3">
+                    <img src="https://mdbootstrap.com/img/new/standard/city/034.jpg"
+                      class="img-fluid shadow-1-strong rounded" alt="" />
+                  </div>
+
+                  <div class="col-9">
+                    <p class="mb-2">
+                      <strong>Lorem ipsum dolor sit amet</strong>
+                    </p>
+                    <p>
+                      <u> 15.07.2020</u>
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <!-- News block -->
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+            <!-- News block -->
+            <div>
+              <!-- Featured image -->
+              <div class="bg-image hover-overlay shadow-1-strong rounded mb-4" data-mdb-ripple-init data-mdb-ripple-color="light">
+                <img src="https://mdbootstrap.com/img/new/fluid/city/018.jpg" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                </a>
+              </div>
+
+              <!-- Article data -->
+              <div class="row mb-3">
+                <div class="col-6">
+                  <a href="" class="text-warning">
+                    <i class="fas fa-code"></i>
+                    Technology
+                  </a>
+                </div>
+
+                <div class="col-6 text-end">
+                  <u> 15.07.2020</u>
+                </div>
+              </div>
+
+              <!-- Article title and description -->
+              <a href="" class="text-dark">
+                <h5>This is title of the news</h5>
+
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Odit, iste aliquid. Sed id nihil magni, sint vero provident
+                  esse numquam perferendis ducimus dicta adipisci iusto nam
+                  temporibus modi animi laboriosam?
+                </p>
+              </a>
+
+              <hr />
+
+              <!-- News -->
+              <a href="" class="text-dark">
+                <div class="row mb-4 border-bottom pb-2">
+                  <div class="col-3">
+                    <img src="https://mdbootstrap.com/img/new/standard/city/011.jpg"
+                      class="img-fluid shadow-1-strong rounded" alt="" />
+                  </div>
+
+                  <div class="col-9">
+                    <p class="mb-2">
+                      <strong>Lorem ipsum dolor sit amet</strong>
+                    </p>
+                    <p>
+                      <u> 15.07.2020</u>
+                    </p>
+                  </div>
+                </div>
+              </a>
+
+              <!-- News -->
+              <a href="" class="text-dark">
+                <div class="row mb-4 border-bottom pb-2">
+                  <div class="col-3">
+                    <img src="https://mdbootstrap.com/img/new/standard/city/012.jpg"
+                      class="img-fluid shadow-1-strong rounded" alt="" />
+                  </div>
+
+                  <div class="col-9">
+                    <p class="mb-2">
+                      <strong>Lorem ipsum dolor sit amet</strong>
+                    </p>
+                    <p>
+                      <u> 15.07.2020</u>
+                    </p>
+                  </div>
+                </div>
+              </a>
+
+              <!-- News -->
+              <a href="" class="text-dark">
+                <div class="row mb-4 border-bottom pb-2">
+                  <div class="col-3">
+                    <img src="https://mdbootstrap.com/img/new/standard/city/013.jpg"
+                      class="img-fluid shadow-1-strong rounded" alt="" />
+                  </div>
+
+                  <div class="col-9">
+                    <p class="mb-2">
+                      <strong>Lorem ipsum dolor sit amet</strong>
+                    </p>
+                    <p>
+                      <u> 15.07.2020</u>
+                    </p>
+                  </div>
+                </div>
+              </a>
+
+              <!-- News -->
+              <a href="" class="text-dark">
+                <div class="row mb-4 border-bottom pb-2">
+                  <div class="col-3">
+                    <img src="https://mdbootstrap.com/img/new/standard/city/014.jpg"
+                      class="img-fluid shadow-1-strong rounded" alt="" />
+                  </div>
+
+                  <div class="col-9">
+                    <p class="mb-2">
+                      <strong>Lorem ipsum dolor sit amet</strong>
+                    </p>
+                    <p>
+                      <u> 15.07.2020</u>
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <!-- News block -->
+          </div>
+        </div>
+      </section>
+      <!--Section: News-->
+    </div>
+  </main>
+  <!--Main layout-->
+
+  <!--Footer-->
+  <footer class="bg-light text-center text-lg-start">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <div class="row">
+        <div class="col-md-6 mb-4 mb-md-0 d-flex justify-content-center justify-content-md-start align-items-center">
+          <strong>Get connected with us on social networks</strong>
+        </div>
+
+        <div class="col-md-6 d-flex justify-content-center justify-content-md-end">
+          <!-- Facebook -->
+          <a class="btn text-white btn-sm btn-floating me-2" style="background-color: #3b5998" href="#!" data-mdb-ripple-init
+            role="button"><i class="fab fa-facebook-f"></i></a>
+          <!-- Twitter -->
+          <a class="btn text-white btn-sm btn-floating me-2" style="background-color: #55acee" href="#!" data-mdb-ripple-init
+            role="button"><i class="fab fa-twitter"></i></a>
+          <!-- Pinterest -->
+          <a class="btn text-white btn-sm btn-floating me-2" style="background-color: #c61118" href="#!" data-mdb-ripple-init
+            role="button"><i class="fab fa-pinterest"></i></a>
+          <!-- Youtube -->
+          <a class="btn text-white btn-sm btn-floating me-2" style="background-color: #ed302f" href="#!" data-mdb-ripple-init
+            role="button"><i class="fab fa-youtube"></i></a>
+          <!-- Instagram -->
+          <a class="btn text-white btn-sm btn-floating me-2" style="background-color: #ac2bac" href="#!" data-mdb-ripple-init
+            role="button"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <hr class="my-3" />
+
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <p><strong>About us</strong></p>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
+            atque ea quis molestias. Fugiat pariatur maxime quis culpa
+            corporis vitae repudiandae aliquam voluptatem veniam, est atque
+            cumque eum delectus sint!
+          </p>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 mb-4 mb-lg-0">
+          <p><strong>Useful links</strong></p>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-dark">Privacy policy</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Media</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Job offers</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Cooperation</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 mb-4 mb-lg-0">
+          <p><strong>Products</strong></p>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!" class="text-dark">Electronics</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Fashion</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Beauty</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Automotive</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-2 mb-4 mb-lg-0">
+          <p><strong>Support</strong></p>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!" class="text-dark">Complaints</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Help center</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Community</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">FAQ</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2020 Copyright:
+      <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!--Footer-->
+
+
+
+
+
+
+
+
   </body>
 
   <!-- MDB ESSENTIAL -->
