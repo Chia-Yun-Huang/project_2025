@@ -26,598 +26,413 @@
   </head>
 
   <body>
-  
 
-
-      <!--Main Navigation-->
-  <header>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
-      <div class="container">
-        <!-- Navbar brand -->
-        <a class="navbar-brand" target="_blank" href="https://mdbootstrap.com/docs/standard/">
-          <img src="https://mdbootstrap.com/img/logo/mdb-transaprent-noshadows.png" height="16" alt="" loading="lazy"
-            style="margin-top: -3px" />
-        </a>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <!-- Container wrapper -->
+      <div class="container-fluid">
         <!-- Toggle button -->
-        <button class="navbar-toggler" type="button" data-mdb-collapse-init data-mdb-target="#navbarExample01"
-          aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+        <button data-mdb-collapse-init class="navbar-toggler" type="button" data-mdb-target="#navbarLeftAlignExample"
+          aria-controls="navbarLeftAlignExample" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fas fa-bars"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarExample01">
+
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse" id="navbarLeftAlignExample">
+          <!-- Left links -->
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" aria-current="page" href="#intro">Home</a>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="" rel="nofollow" target="_blank">Topics</a>
+              <a class="nav-link" href="#">Link 12/03 </a>
+            </li>
+            <!-- Navbar dropdown -->
+            <li class="nav-item dropdown">
+              <a data-mdb-dropdown-init class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                aria-expanded="false">
+                Dropdown
+              </a>
+              <!-- Dropdown menu -->
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#">Action</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Another action</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="" target="_blank">About me</a>
+              <a class="nav-link disabled">Disabled</a>
             </li>
           </ul>
-
-          <ul class="navbar-nav d-flex flex-row">
-            <!-- Icons -->
-            <li class="nav-item me-3 me-lg-0">
-              <a class="nav-link" href="#">
-                <i class="fas fa-shopping-cart"></i>
-              </a>
-            </li>
-            <li class="nav-item me-3 me-lg-0">
-              <a class="nav-link" href="#">
-                <i class="fab fa-twitter"></i>
-              </a>
-            </li>
-            <li class="nav-item me-3 me-lg-0">
-              <a class="nav-link" href="#">
-                <i class="fab fa-linkedin"></i>
-              </a>
-            </li>
-          </ul>
+          <!-- Left links -->
         </div>
+        <!-- Collapsible wrapper -->
       </div>
+      <!-- Container wrapper -->
     </nav>
-    <!-- Navbar -->
 
-    <!-- Background image -->
-    <div id="intro" class="bg-image shadow-1-strong" style="
-          background-image: url(https://mdbootstrap.com/img/new/slides/052.jpg);
-          height: 400px;
-        ">
-      <div class="mask text-white" style="background-color: rgba(0, 0, 0, 0.6)">
-        <div class="container d-flex align-items-center justify-content-center text-center h-100">
-          <div class="text-white">
-            <h1 class="mb-3">My Blog</h1>
-            <h4 class="mb-4">gbovtviubnin;yyufndi</h4>
-          </div>
+
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-mdb-ride="carousel" data-mdb-carousel-init>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp" class="d-block w-100" alt="Wild Landscape" />
+        </div>
+        <div class="carousel-item">
+          <img src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp" class="d-block w-100" alt="Camera" />
+        </div>
+        <div class="carousel-item">
+          <img src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp" class="d-block w-100" alt="Exotic Fruits" />
         </div>
       </div>
     </div>
-    <!-- Background image -->
-  </header>
-  <!--Main Navigation-->
 
-  <!--Main layout-->
-  <main class="mt-5 mb-4">
-    <div class="container">
-      <!--Section: Main news-->
-      <section>
-        <div class="row gx-5">
-          <div class="col-md-6 mb-4 mb-md-0">
-            <div class="bg-image hover-overlay shadow-2-strong" data-mdb-ripple-init data-mdb-ripple-color="light">
-              <img src="https://mdbootstrap.com/img/new/slides/080.jpg" class="img-fluid" />
-              <a href="#!">
-                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
-              </a>
+
+
+    <!-- Fruits Shop Start-->
+    <div class="container-fluid fruite py-5">
+      <div class="container py-5">
+        <div class="tab-class text-center">
+          <div class="row g-4">
+            <div class="col-lg-4 text-start">
+              <h1>四季的水果</h1>
             </div>
+
+            <div class="col-lg-8 text-end">
+              <ul class="nav nav-pills d-inline-flex text-center mb-5">
+                <li class="nav-item">
+                  <a class="d-flex m-2 py-2 bg-light rounded-pill active" data-bs-toggle="pill" href="#tab-1">
+                    <span class="text-dark" style="width: 130px;">首頁</span>
+                  </a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="d-flex py-2 m-2 bg-light rounded-pill" data-bs-toggle="pill" href="#tab-2">
+                    <span class="text-dark" style="width: 130px;">春季</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="d-flex m-2 py-2 bg-light rounded-pill" data-bs-toggle="pill" href="#tab-3">
+                    <span class="text-dark" style="width: 130px;">夏季</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="d-flex m-2 py-2 bg-light rounded-pill" data-bs-toggle="pill" href="#tab-4">
+                    <span class="text-dark" style="width: 130px;">秋季</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="d-flex m-2 py-2 bg-light rounded-pill" data-bs-toggle="pill" href="#tab-5">
+                    <span class="text-dark" style="width: 130px;">冬季</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
           </div>
 
-          <div class="col-md-6 mb-4 mb-md-0">
-            <span class="badge badge-danger mb-3">News of the day</span>
-            <h4><strong>Facilis consequatur eligendi</strong></h4>
-            <p class="text-muted">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-              consequatur eligendi quisquam doloremque vero ex debitis
-              veritatis placeat unde animi laborum sapiente illo possimus,
-              commodi dignissimos obcaecati illum maiores corporis.
+
+          <div class="text-center mx-auto mb-5" style="max-width: 700px;">
+            <p class="fs-2">農曆傳統四季月份</p>
+            <p class="fs-3">春季：約2月初~5月初 夏季：約5月初~8月初<br>秋季：約8月初~11月初 冬季：約11月初~翌年2月初
+
             </p>
-            <button type="button" class="btn btn-primary" data-mdb-ripple-init>Read more</button>
           </div>
-        </div>
-      </section>
-      <!--Section: Main news-->
 
-      <hr class="my-5" />
 
-      <!--Section: News-->
-      <section>
-        <div class="row gx-5">
-          <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-            <!-- News block -->
-            <div>
-              <!-- Featured image -->
-              <div class="bg-image hover-overlay shadow-1-strong rounded mb-4" data-mdb-ripple-init data-mdb-ripple-color="light">
-                <img src="https://mdbootstrap.com/img/new/fluid/city/113.jpg" class="img-fluid" />
+
+
+
+
+          <div class="row">
+            <div class="card col-3">
+              <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+                <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/111.webp" class="img-fluid" />
                 <a href="#!">
-                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                 </a>
               </div>
-
-              <!-- Article data -->
-              <div class="row mb-3">
-                <div class="col-6">
-                  <a href="" class="text-info">
-                    <i class="fas fa-plane"></i>
-                    Travels
-                  </a>
-                </div>
-
-                <div class="col-6 text-end">
-                  <u> 15.07.2020</u>
-                </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                  content.</p>
+                <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Button</a>
               </div>
-
-              <!-- Article title and description -->
-              <a href="" class="text-dark">
-                <h5>This is title of the news</h5>
-
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Odit, iste aliquid. Sed id nihil magni, sint vero provident
-                  esse numquam perferendis ducimus dicta adipisci iusto nam
-                  temporibus modi animi laboriosam?
-                </p>
-              </a>
-
-              <hr />
-
-              <!-- News -->
-              <a href="" class="text-dark">
-                <div class="row mb-4 border-bottom pb-2">
-                  <div class="col-3">
-                    <img src="https://mdbootstrap.com/img/new/standard/city/041.jpg"
-                      class="img-fluid shadow-1-strong rounded" alt="" />
-                  </div>
-
-                  <div class="col-9">
-                    <p class="mb-2">
-                      <strong>Lorem ipsum dolor sit amet</strong>
-                    </p>
-                    <p>
-                      <u> 15.07.2020</u>
-                    </p>
-                  </div>
-                </div>
-              </a>
-
-              <!-- News -->
-              <a href="" class="text-dark">
-                <div class="row mb-4 border-bottom pb-2">
-                  <div class="col-3">
-                    <img src="https://mdbootstrap.com/img/new/standard/city/042.jpg"
-                      class="img-fluid shadow-1-strong rounded" alt="" />
-                  </div>
-
-                  <div class="col-9">
-                    <p class="mb-2">
-                      <strong>Lorem ipsum dolor sit amet</strong>
-                    </p>
-                    <p>
-                      <u> 15.07.2020</u>
-                    </p>
-                  </div>
-                </div>
-              </a>
-
-              <!-- News -->
-              <a href="" class="text-dark">
-                <div class="row mb-4 border-bottom pb-2">
-                  <div class="col-3">
-                    <img src="https://mdbootstrap.com/img/new/standard/city/043.jpg"
-                      class="img-fluid shadow-1-strong rounded" alt="" />
-                  </div>
-
-                  <div class="col-9">
-                    <p class="mb-2">
-                      <strong>Lorem ipsum dolor sit amet</strong>
-                    </p>
-                    <p>
-                      <u> 15.07.2020</u>
-                    </p>
-                  </div>
-                </div>
-              </a>
-
-              <!-- News -->
-              <a href="" class="text-dark">
-                <div class="row mb-4 border-bottom pb-2">
-                  <div class="col-3">
-                    <img src="https://mdbootstrap.com/img/new/standard/city/044.jpg"
-                      class="img-fluid shadow-1-strong rounded" alt="" />
-                  </div>
-
-                  <div class="col-9">
-                    <p class="mb-2">
-                      <strong>Lorem ipsum dolor sit amet</strong>
-                    </p>
-                    <p>
-                      <u> 15.07.2020</u>
-                    </p>
-                  </div>
-                </div>
-              </a>
             </div>
-            <!-- News block -->
-          </div>
-
-          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-            <!-- News block -->
-            <div>
-              <!-- Featured image -->
-              <div class="bg-image hover-overlay shadow-1-strong rounded mb-4" data-mdb-ripple-init data-mdb-ripple-color="light">
-                <img src="https://mdbootstrap.com/img/new/fluid/city/011.jpg" class="img-fluid" />
+            <div class="card col-3">
+              <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+                <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/111.webp" class="img-fluid" />
                 <a href="#!">
-                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                 </a>
               </div>
-
-              <!-- Article data -->
-              <div class="row mb-3">
-                <div class="col-6">
-                  <a href="" class="text-danger">
-                    <i class="fas fa-chart-pie"></i>
-                    Business
-                  </a>
-                </div>
-
-                <div class="col-6 text-end">
-                  <u> 15.07.2020</u>
-                </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                  content.</p>
+                <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Button</a>
               </div>
-
-              <!-- Article title and description -->
-              <a href="" class="text-dark">
-                <h5>This is title of the news</h5>
-
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Odit, iste aliquid. Sed id nihil magni, sint vero provident
-                  esse numquam perferendis ducimus dicta adipisci iusto nam
-                  temporibus modi animi laboriosam?
-                </p>
-              </a>
-
-              <hr />
-
-              <!-- News -->
-              <a href="" class="text-dark">
-                <div class="row mb-4 border-bottom pb-2">
-                  <div class="col-3">
-                    <img src="https://mdbootstrap.com/img/new/standard/city/031.jpg"
-                      class="img-fluid shadow-1-strong rounded" alt="" />
-                  </div>
-
-                  <div class="col-9">
-                    <p class="mb-2">
-                      <strong>Lorem ipsum dolor sit amet</strong>
-                    </p>
-                    <p>
-                      <u> 15.07.2020</u>
-                    </p>
-                  </div>
-                </div>
-              </a>
-
-              <!-- News -->
-              <a href="" class="text-dark">
-                <div class="row mb-4 border-bottom pb-2">
-                  <div class="col-3">
-                    <img src="https://mdbootstrap.com/img/new/standard/city/032.jpg"
-                      class="img-fluid shadow-1-strong rounded" alt="" />
-                  </div>
-
-                  <div class="col-9">
-                    <p class="mb-2">
-                      <strong>Lorem ipsum dolor sit amet</strong>
-                    </p>
-                    <p>
-                      <u> 15.07.2020</u>
-                    </p>
-                  </div>
-                </div>
-              </a>
-
-              <!-- News -->
-              <a href="" class="text-dark">
-                <div class="row mb-4 border-bottom pb-2">
-                  <div class="col-3">
-                    <img src="https://mdbootstrap.com/img/new/standard/city/033.jpg"
-                      class="img-fluid shadow-1-strong rounded" alt="" />
-                  </div>
-
-                  <div class="col-9">
-                    <p class="mb-2">
-                      <strong>Lorem ipsum dolor sit amet</strong>
-                    </p>
-                    <p>
-                      <u> 15.07.2020</u>
-                    </p>
-                  </div>
-                </div>
-              </a>
-
-              <!-- News -->
-              <a href="" class="text-dark">
-                <div class="row mb-4 border-bottom pb-2">
-                  <div class="col-3">
-                    <img src="https://mdbootstrap.com/img/new/standard/city/034.jpg"
-                      class="img-fluid shadow-1-strong rounded" alt="" />
-                  </div>
-
-                  <div class="col-9">
-                    <p class="mb-2">
-                      <strong>Lorem ipsum dolor sit amet</strong>
-                    </p>
-                    <p>
-                      <u> 15.07.2020</u>
-                    </p>
-                  </div>
-                </div>
-              </a>
             </div>
-            <!-- News block -->
-          </div>
-
-          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-            <!-- News block -->
-            <div>
-              <!-- Featured image -->
-              <div class="bg-image hover-overlay shadow-1-strong rounded mb-4" data-mdb-ripple-init data-mdb-ripple-color="light">
-                <img src="https://mdbootstrap.com/img/new/fluid/city/018.jpg" class="img-fluid" />
+            <div class="card col-3">
+              <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+                <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/111.webp" class="img-fluid" />
                 <a href="#!">
-                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                 </a>
               </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                  content.</p>
+                <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Button</a>
+              </div>
+            </div>
+            <div class="card col-3">
+              <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+                <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/111.webp" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                  content.</p>
+                <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Button</a>
+              </div>
+            </div>
+          </div>
 
-              <!-- Article data -->
-              <div class="row mb-3">
-                <div class="col-6">
-                  <a href="" class="text-warning">
-                    <i class="fas fa-code"></i>
-                    Technology
-                  </a>
+
+
+
+
+
+
+
+
+
+          <!-- Bestsaler Product Start -->
+          <div class="container-fluid py-5">
+            <div class="container py-5">
+              <div class="text-center mx-auto mb-5" style="max-width: 700px;">
+                <h1 class="display-4">口感分析</h1>
+
+              </div>
+              <div class="text-center">
+
+                <ul class="nav nav-pills d-inline-flex text-center mb-5">
+                  <li class="nav-item">
+                    <a class="d-flex m-2 py-2 bg-light rounded-pill active" data-bs-toggle="pill" href="#tab-1">
+                      <span class="text-dark" style="width: 130px;">硬度</span>
+                    </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="d-flex py-2 m-2 bg-light rounded-pill" data-bs-toggle="pill" href="#tab-2">
+                      <span class="text-dark" style="width: 130px;">甜度</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="d-flex m-2 py-2 bg-light rounded-pill" data-bs-toggle="pill" href="#tab-3">
+                      <span class="text-dark" style="width: 130px;">Q度</span>
+                    </a>
+                  </li>
+                </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="col-lg-4 col-6 mb-4 mb-lg-0">
+                  <!-- Product card -->
+                  <div>
+                    <!-- Product image and content wrapper -->
+                    <div class="d-flex flex-column flex-lg-row"> <!-- Flex container to align items in a row -->
+                      <!-- Product image -->
+                      <div class="bg-image shadow-4-strong rounded-6 mb-4 overflow-hidden d-block" data-mdb-ripple-init
+                        data-ripple-color="light" style="width: 55%; max-width: 300px;">
+                        <img src="https://mdbootstrap.com/img/new/ecommerce/vertical/001.jpg" class="w-100" alt="" />
+                      </div>
+
+                      <!-- Product content -->
+                      <div class="px-3 text-reset" style="width: 45%;"> <!-- Ensure this takes the remaining space -->
+                        <p class="fw-bold mb-2">Modern watch</p>
+                        <p class="text-muted mb-2">Watches</p>
+                        <ul class="rating mb-2" data-mdb-rating-init data-mdb-readonly="true" data-mdb-value="4">
+                          <li><i class="far fa-star fa-sm text-primary ps-0" title="Bad"></i></li>
+                          <li><i class="far fa-star fa-sm text-primary" title="Poor"></i></li>
+                          <li><i class="far fa-star fa-sm text-primary" title="OK"></i></li>
+                          <li><i class="far fa-star fa-sm text-primary" title="Good"></i></li>
+                          <li><i class="far fa-star fa-sm text-primary" title="Excellent"></i></li>
+                        </ul>
+                        <h5 class="mb-2">
+                          <span class="align-middle">$249</span>
+                        </h5>
+                      </div>
+                    </div>
+                    <!-- Product content -->
+                  </div>
+                  <!-- Product card -->
                 </div>
 
-                <div class="col-6 text-end">
-                  <u> 15.07.2020</u>
+
+
+
+
+
+
+
+
+
+
+
+                <div class="col-lg-4 col-6 mb- mb-lg-0">
+                  <!-- Product card -->
+                  <div>
+                    <!-- Product image and content wrapper -->
+                    <div class="d-flex flex-column flex-lg-row"> <!-- Flex container to align items in a row -->
+                      <!-- Product image -->
+                      <div class="bg-image shadow-4-strong rounded-6 mb-6 overflow-hidden d-block" data-mdb-ripple-init
+                        data-ripple-color="light" style="width: 60%; max-width: 250ㄋpx;">
+                        <img src="https://mdbootstrap.com/img/new/ecommerce/vertical/001.jpg" class="w-100" alt="" />
+                      </div>
+
+                      <!-- Product content -->
+                      <div class="px-3 text-reset" style="width: 30%;"> <!-- Ensure this takes the remaining space -->
+                        <p class="fw-bold mb-2">Modern watch</p>
+                        <p class="text-muted mb-2">Watches</p>
+                        <ul class="rating mb-2" data-mdb-rating-init data-mdb-readonly="true" data-mdb-value="4">
+                          <li><i class="far fa-star fa-sm text-primary ps-0" title="Bad"></i></li>
+                          <li><i class="far fa-star fa-sm text-primary" title="Poor"></i></li>
+                          <li><i class="far fa-star fa-sm text-primary" title="OK"></i></li>
+                          <li><i class="far fa-star fa-sm text-primary" title="Good"></i></li>
+                          <li><i class="far fa-star fa-sm text-primary" title="Excellent"></i></li>
+                        </ul>
+                        <h5 class="mb-2">
+                          <span class="align-middle">$249</span>
+                        </h5>
+                      </div>
+                    </div>
+                    <!-- Product content -->
+                  </div>
+                  <!-- Product card -->
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+                </a>
+                <!-- Product content -->
+              </div>
+              <!-- Product card -->
+            </div>
+          </div>
+          </section>
+          <!-- Section: Design Block -->
+
+        </div>
+        <!-- Container for demo purpose -->
+
+
+
+
+
+
+        <!-- Container for demo purpose only -->
+        <div class="container pt-5">
+
+          <!-- Section: Design Block -->
+          <section class="mb-8">
+            <div class="row">
+              <div class="col-12 text-center">
+                <h3 class="mb-4 pb-2">Contact me</h3>
+                <p class="mx-auto mb-5 pb-3" style="max-width: 700px;"> If you have any questions about my services or
+                  portfolio, don't hesitate to write to me.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3 mb-5 mb-md-0 ms-auto text-center text-md-start">
+                <img src="https://mdbootstrap.com/img/new/other/3d-fluency-contacts.png" class="img-fluid" alt="Contact" />
+              </div>
+              <div class="col-md-9 col-lg-7 col-xl-5 me-auto">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div id="customContact" class="form-outline mb-4" data-mdb-input-init>
+                      <input type="text" id="customContactForm1" class="form-control" />
+                      <label class="form-label" for="customContactForm1">Selected topic</label>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-outline" data-mdb-input-init>
+                      <input type="text" id="yourTopic1" class="form-control mb-4" />
+                      <label class="form-label" for="yourTopic1">Your topic</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-outline" data-mdb-input-init>
+                      <input type="text" id="yourName1" class="form-control mb-4" />
+                      <label class="form-label" for="yourName1">Name</label>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+
+                  </div>
+                </div>
+                <div class="form-outline mb-4" data-mdb-input-init>
+                  <textarea class="form-control" id="yourMessage1" rows="4"></textarea>
+                  <label class="form-label" for="yourMessage1">Message</label>
+                </div>
+                <div class="text-center text-md-start">
+                  <button type="button" class="btn btn-warning btn-rounded" data-mdb-ripple-init>Warning</button>
                 </div>
               </div>
+          </section>
+          <!-- Section: Design Block -->
 
-              <!-- Article title and description -->
-              <a href="" class="text-dark">
-                <h5>This is title of the news</h5>
-
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Odit, iste aliquid. Sed id nihil magni, sint vero provident
-                  esse numquam perferendis ducimus dicta adipisci iusto nam
-                  temporibus modi animi laboriosam?
-                </p>
-              </a>
-
-              <hr />
-
-              <!-- News -->
-              <a href="" class="text-dark">
-                <div class="row mb-4 border-bottom pb-2">
-                  <div class="col-3">
-                    <img src="https://mdbootstrap.com/img/new/standard/city/011.jpg"
-                      class="img-fluid shadow-1-strong rounded" alt="" />
-                  </div>
-
-                  <div class="col-9">
-                    <p class="mb-2">
-                      <strong>Lorem ipsum dolor sit amet</strong>
-                    </p>
-                    <p>
-                      <u> 15.07.2020</u>
-                    </p>
-                  </div>
-                </div>
-              </a>
-
-              <!-- News -->
-              <a href="" class="text-dark">
-                <div class="row mb-4 border-bottom pb-2">
-                  <div class="col-3">
-                    <img src="https://mdbootstrap.com/img/new/standard/city/012.jpg"
-                      class="img-fluid shadow-1-strong rounded" alt="" />
-                  </div>
-
-                  <div class="col-9">
-                    <p class="mb-2">
-                      <strong>Lorem ipsum dolor sit amet</strong>
-                    </p>
-                    <p>
-                      <u> 15.07.2020</u>
-                    </p>
-                  </div>
-                </div>
-              </a>
-
-              <!-- News -->
-              <a href="" class="text-dark">
-                <div class="row mb-4 border-bottom pb-2">
-                  <div class="col-3">
-                    <img src="https://mdbootstrap.com/img/new/standard/city/013.jpg"
-                      class="img-fluid shadow-1-strong rounded" alt="" />
-                  </div>
-
-                  <div class="col-9">
-                    <p class="mb-2">
-                      <strong>Lorem ipsum dolor sit amet</strong>
-                    </p>
-                    <p>
-                      <u> 15.07.2020</u>
-                    </p>
-                  </div>
-                </div>
-              </a>
-
-              <!-- News -->
-              <a href="" class="text-dark">
-                <div class="row mb-4 border-bottom pb-2">
-                  <div class="col-3">
-                    <img src="https://mdbootstrap.com/img/new/standard/city/014.jpg"
-                      class="img-fluid shadow-1-strong rounded" alt="" />
-                  </div>
-
-                  <div class="col-9">
-                    <p class="mb-2">
-                      <strong>Lorem ipsum dolor sit amet</strong>
-                    </p>
-                    <p>
-                      <u> 15.07.2020</u>
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <!-- News block -->
-          </div>
         </div>
-      </section>
-      <!--Section: News-->
-    </div>
-  </main>
-  <!--Main layout-->
+        <!-- Container for demo purpose only -->
 
-  <!--Footer-->
-  <footer class="bg-light text-center text-lg-start">
-    <!-- Grid container -->
-    <div class="container p-4">
-      <div class="row">
-        <div class="col-md-6 mb-4 mb-md-0 d-flex justify-content-center justify-content-md-start align-items-center">
-          <strong>Get connected with us on social networks</strong>
-        </div>
 
-        <div class="col-md-6 d-flex justify-content-center justify-content-md-end">
-          <!-- Facebook -->
-          <a class="btn text-white btn-sm btn-floating me-2" style="background-color: #3b5998" href="#!" data-mdb-ripple-init
-            role="button"><i class="fab fa-facebook-f"></i></a>
-          <!-- Twitter -->
-          <a class="btn text-white btn-sm btn-floating me-2" style="background-color: #55acee" href="#!" data-mdb-ripple-init
-            role="button"><i class="fab fa-twitter"></i></a>
-          <!-- Pinterest -->
-          <a class="btn text-white btn-sm btn-floating me-2" style="background-color: #c61118" href="#!" data-mdb-ripple-init
-            role="button"><i class="fab fa-pinterest"></i></a>
-          <!-- Youtube -->
-          <a class="btn text-white btn-sm btn-floating me-2" style="background-color: #ed302f" href="#!" data-mdb-ripple-init
-            role="button"><i class="fab fa-youtube"></i></a>
-          <!-- Instagram -->
-          <a class="btn text-white btn-sm btn-floating me-2" style="background-color: #ac2bac" href="#!" data-mdb-ripple-init
-            role="button"><i class="fab fa-instagram"></i></a>
-        </div>
+
+
+
       </div>
+      </section>
+      <!-- Section: Design Block -->
 
-      <hr class="my-3" />
-
-      <!--Grid row-->
-      <div class="row">
-        <!--Grid column-->
-        <div class="col-lg-4 mb-4 mb-lg-0">
-          <p><strong>About us</strong></p>
-
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
-            atque ea quis molestias. Fugiat pariatur maxime quis culpa
-            corporis vitae repudiandae aliquam voluptatem veniam, est atque
-            cumque eum delectus sint!
-          </p>
-        </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-lg-3 mb-4 mb-lg-0">
-          <p><strong>Useful links</strong></p>
-
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="text-dark">Privacy policy</a>
-            </li>
-            <li>
-              <a href="#!" class="text-dark">Media</a>
-            </li>
-            <li>
-              <a href="#!" class="text-dark">Job offers</a>
-            </li>
-            <li>
-              <a href="#!" class="text-dark">Cooperation</a>
-            </li>
-          </ul>
-        </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-lg-3 mb-4 mb-lg-0">
-          <p><strong>Products</strong></p>
-
-          <ul class="list-unstyled">
-            <li>
-              <a href="#!" class="text-dark">Electronics</a>
-            </li>
-            <li>
-              <a href="#!" class="text-dark">Fashion</a>
-            </li>
-            <li>
-              <a href="#!" class="text-dark">Beauty</a>
-            </li>
-            <li>
-              <a href="#!" class="text-dark">Automotive</a>
-            </li>
-          </ul>
-        </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-lg-2 mb-4 mb-lg-0">
-          <p><strong>Support</strong></p>
-
-          <ul class="list-unstyled">
-            <li>
-              <a href="#!" class="text-dark">Complaints</a>
-            </li>
-            <li>
-              <a href="#!" class="text-dark">Help center</a>
-            </li>
-            <li>
-              <a href="#!" class="text-dark">Community</a>
-            </li>
-            <li>
-              <a href="#!" class="text-dark">FAQ</a>
-            </li>
-          </ul>
-        </div>
-        <!--Grid column-->
-      </div>
-      <!--Grid row-->
     </div>
-    <!-- Grid container -->
-
-    <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-      © 2020 Copyright:
-      <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-    </div>
-    <!-- Copyright -->
-  </footer>
-  <!--Footer-->
-
-
-
-
-
+    <!-- Container for demo purpose -->
 
 
 
